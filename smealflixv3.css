@@ -6,12 +6,14 @@
 /* Desktop logo sizing */
 .pageTitleWithDefaultLogo {
   background-size: contain !important; /* keeps aspect ratio */
-  width: 300px !important;            /* adjust width as needed */
+  width: 400px !important;            /* increase width */
+  height: auto !important;            /* automatic height */
 }
 
 /* Mobile logo sizing */
 .layout-mobile .pageTitleWithDefaultLogo {
-  width: 180px !important;            /* adjust width as needed */
+  width: 250px !important;            /* bigger mobile logo */
+  height: auto !important;
 }
 
 /* Login page styling */
@@ -22,4 +24,3 @@
 #loginPage .manualLoginForm:not(.hide) h1.sectionTitle::before {
   background-size: contain !important;
 }
-
