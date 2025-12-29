@@ -1,14 +1,14 @@
-/* Replace Logo with streamberry logo, this should be the last line in CSS */
+/* Replace default with my own logo */
 :root {
-    --logo: url("https://cdn.jsdelivr.net/gh/18jsmeal/smealflixjellyfin/SmealFlix512x256.png");
+  --logo: url("https://cdn.jsdelivr.net/gh/18jsmeal/smealflixjellyfin@main/SmealFlix512x256.png");
 }
 
 .pageTitleWithDefaultLogo {
-    background-size: 100% !important;
+  background-size: 100% !important;
 }
 
 .layout-mobile .pageTitleWithDefaultLogo {
-    width: 130px !important;
+  width: 130px !important;
 }
 
 #loginPage .visualLoginForm:not(.hide) h1::before {
@@ -18,3 +18,4 @@
 #loginPage .manualLoginForm:not(.hide) h1.sectionTitle::before {
   background-size: 100% !important;
 }
+
